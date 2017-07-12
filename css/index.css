@@ -1,0 +1,427 @@
+	html,body{
+		width:100%;
+		height:100%;
+		position:relative;
+	}
+	.swiper-container{
+		width:100%;
+		height:100%;
+	}
+	.swiper-wrapper{
+		width:100%;
+		height:100%;
+	}
+	.swiper-slide{
+		display:block;
+		width:100%;
+	}
+	.swiper-slide img{
+		display:block;
+		
+	}
+
+/* ----------第一页------------- */
+	.swiper-slide .resume{
+		width:200px;
+		height:200px;
+		position:absolute;
+		top:160px;
+		left:110px;
+	}
+	.swiper-slide .known-more{
+		width: 250px;
+		height: 50px;
+		position:absolute;
+		bottom:130px;
+		left:85px;
+	}
+	.swiper-slide .word-one{
+		font-size:18px;
+		color:#fff;
+		position:absolute;
+		top:50px;
+		left:125px;
+	}
+	.swiper-slide .word-resume{
+		font-weight:bold;
+		color:#fff;
+		font-size:30px;
+		position:absolute;
+		top:85px;
+		left:140px;
+	}
+
+	.swiper-slide .hr{
+		color:#fff;
+		height: 2px;
+		width: 50%;
+		position:absolute;
+		top:130px;
+		left:100px;
+	}
+	.swiper-slide .word-two{
+		color:#fff;
+		font-size:30px;
+		position:absolute;
+		bottom:290px;
+		left:110px;
+	}
+	.swiper-slide .word-three{
+		color:#fff;
+		font-size:30px;
+		position:absolute;
+		bottom:225px;
+		left:85px;
+	}
+	.swiper-slide .word-four{
+		font-size:14px;
+		position:absolute;
+		bottom:146px;
+		left:175px;
+		z-index:1;
+	}
+
+/* --------------第二页---------------- */
+	.swiper-slide .bg3{
+		width: 405px;
+		height: 555px;
+		position:absolute;
+		top:85px;
+	}
+
+	.swiper-slide .pageTwo-word{
+		position:absolute;
+		font-size:24px;
+		font-family:"黑体";
+		z-index:1;
+		top:205px;
+		left:30px;
+		color:#c2bf9e;
+	}
+	.swiper-slide .information{
+		font-size:25px;
+		color:#c2bf9e;
+		position:absolute;
+		top:130px;
+		left:30px;
+		z-index:1;
+		border:3px #c2bf9e dashed;
+
+	}
+	.swiper-slide .cmy{
+		width: 110px;
+		height: 150px;
+		position:absolute;
+		z-index:1;
+		top:130px;
+		right:60px;
+		box-shadow:-10px 10px 30px #9f9f9f;
+	}
+
+
+
+/* ---------第三页------------- */
+	.swiper-slide .skill-word{
+		width: 250px;
+		height: 55px;
+		border:2px dashed #20bab0;
+		text-align:center;
+		line-height:55px;
+		position:absolute;
+		color:#fff;
+		font-size:30px;
+		/* font-weight:bold; */
+		top:75px;
+		left:75px;
+	}
+	.icon img{
+		width:74px;
+		height:68px;
+		position:absolute;
+		
+	}
+	.swiper-slide .icon-one{
+		top:210px;
+		left:45px;
+	}
+	.swiper-slide .icon-two{
+		top:295px;
+		left:46px;
+	}
+	.swiper-slide .icon-three{
+		top:385px;
+		left:47px;
+	}
+	.swiper-slide .icon-four{
+		top:475px;
+		left:48px;
+	}
+	.swiper-slide .icon-five{
+		top:565px;
+		left:50px;
+	}
+	
+
+/* ----第三页文字部分样式------ */
+	.swiper-slide .icon-one-word{
+		position:absolute;
+		color:#fff;
+		font-size:18px;
+		top:230px;
+		left:165px;
+ 		   
+	}
+	.swiper-slide .icon-two-word{
+		position:absolute;
+		color:#fff;
+		font-size:18px;
+		color:#fff;
+		left:165px;
+		top:320px;
+	}
+	.swiper-slide .icon-three-word{
+		position:absolute;
+		color:#fff;
+		font-size:18px;
+		color:#fff;
+		left:165px;
+		top:410px;
+	}
+	.swiper-slide .icon-four-word{
+		position:absolute;
+		color:#fff;
+		font-size:18px;
+		color:#fff;
+		left:185px;
+		top:500px;
+	}
+
+	.swiper-slide .icon-five-word{
+		position:absolute;
+		color:#fff;
+		font-size:18px;
+		color:#fff;
+		left:185px;
+		top:590px;
+	}
+
+/* -----------第四页------------- */
+	.swiper-slide .workexp{
+		width: 250px;
+		height: 55px;
+		border:2px dashed #20bab0;
+		text-align:center;
+		line-height:55px;
+		position:absolute;
+		color:#fff;
+		font-size:30px;
+		top:110px;
+		left:75px;
+	}
+	
+
+
+	.swiper-slide .leftword-one{
+		color:#fff;
+		font-size:18px;
+		position:absolute;
+		left:20px;
+		top:280px;
+	}
+	.swiper-slide .leftword-two{
+		color:#fff;
+		font-size:18px;
+		position:absolute;
+		left:20px;
+		top:400px;
+	}
+	.swiper-slide .leftword-three{
+		color:#fff;
+		font-size:18px;
+		position:absolute;
+		left:20px;
+		top:500px;
+	}
+	.swiper-slide .leftword-four{
+		color:#fff;
+		font-size:18px;
+		position:absolute;
+		left:20px;
+		top:580px;
+	}
+	
+	.swiper-slide .rightword-one{
+		color:#fff;
+		font-size:18px;
+		position:absolute;
+		right:95px;
+		top:280px;
+	}
+	.swiper-slide .rightword-two{
+		color:#fff;
+		font-size:18px;
+		position:absolute;
+		right:95px;
+		top:400px;
+	}
+	.swiper-slide .rightword-three{
+		color:#fff;
+		font-size:18px;
+		position:absolute;
+		right:95px;
+		top:500px;
+	}
+	.swiper-slide .rightword-four{
+		color:#fff;
+		font-size:18px;
+		position:absolute;
+		right:45px;
+		top:580px;
+	}
+
+/* ----------中介线和原点--------- */
+	.swiper-slide .bar{
+		width: 1px;
+		height:2px;
+		background:#20bab0;
+		border:2px solid #20bab0;
+		position:absolute;
+		left:207px;
+		top:240px;
+		animation:bar 1s both;
+	}
+	@keyframes bar{
+		0%{height:0px;}
+		100%{height:420px;}
+	}
+
+	.swiper-slide .roundone{
+		width: 15px;
+		height: 15px;
+		border:1px #ef8080 solid;
+		border-radius:8px;
+		background:#ef8080;
+		position:absolute;
+		top:280px;
+		left:202px;
+	}
+	.swiper-slide .roundtwo{
+		width: 15px;
+		height: 15px;
+		border:1px #ef8080 solid;
+		border-radius:8px;
+		background:#ef8080;
+		position:absolute;
+		top:400px;
+		left:202px;
+	}
+	.swiper-slide .roundthree{
+		width: 15px;
+		height: 15px;
+		border:1px #ef8080 solid;
+		border-radius:8px;
+		background:#ef8080;
+		position:absolute;
+		top:500px;
+		left:202px;
+	}
+	.swiper-slide .roundfour{
+		width: 15px;
+		height: 15px;
+		border:1px #ef8080 solid;
+		border-radius:8px;
+		background:#ef8080;
+		position:absolute;
+		top:580px;
+		left:202px;
+	}
+
+/* ---------------第五页--------------- */
+	.swiper-slide .contacts{
+		width: 250px;
+		height: 55px;
+		border:2px dashed #20bab0;
+		text-align:center;
+		line-height:55px;
+		position:absolute;
+		color:#fff;
+		font-size:30px;
+		top:110px;
+		left:80px;
+	}
+
+	.swiper-slide .phone{
+		color:#fff;
+		font-size:18px;
+		position:absolute;
+		left:120px;
+		top:230px;
+	}
+
+	.swiper-slide .qq{
+		color:#fff;
+		font-size:18px;
+		position:absolute;
+		left:135px;
+		top:350px;
+	}
+
+	.swiper-slide .wechat{
+		color:#fff;
+		font-size:18px;
+		position:absolute;
+		left:120px;
+		top:460px;
+	}
+	
+/* ----第六页-------------- */
+	.swiper-slide .end{
+		color:#fff;
+		font-size:45px;
+		position:absolute;
+		left:125px;
+		top:220px;
+	}
+	
+	.swiper-slide .thanks{
+		color:#fff;
+		font-size:40px;
+		position:absolute;
+		left:100px;
+		top:300px;
+	}
+
+
+/* music和上划的图标------------------- */
+	.music{
+		width: 30px;
+		height: 30px;
+		position:absolute;
+		top:10px;
+		right:10px;
+		z-index:5;
+		animation:music 5s infinite linear;
+	}
+	@keyframes music{
+		0%{transform:rotate(0);}
+		100%{transform:rotate(1800deg);}
+	}
+
+
+
+
+	.web-swipe-tip{
+		width: 25px;
+		height: 25px;
+		position:absolute;
+		bottom:25px;
+		left:200px;
+		z-index:6;
+		animation:tip 1.5s infinite linear;
+	/* 	animation-iteration-count:infinite; */
+	}
+
+	@keyframes tip{
+		0%{opacity:0.2;}
+		100%{opacity:1;}
+	}
